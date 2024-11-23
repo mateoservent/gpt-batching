@@ -1,5 +1,4 @@
-# `gpt-batching`: Python tool for the data preprocessing, processing, and collecting for batch jobs with OpenAI API.
-=======
+# `gpt-batching`: Python tool for the data processing for batch jobs with the OpenAI API.
 
 This repository contains a series of scripts that I developed to classify text data with the OpenAI API. Examples of usage are provided below. 
 
@@ -60,7 +59,7 @@ Download all successfully completed batches
 csv_file = "batch_ids.csv" 
 download_folder = "./resulting_batches/"  
 
-# Download and process all files in the CSV
+### Download and process all files in the CSV
 `download_and_process_multiple_files`(
     csv_file, 
     download_folder
